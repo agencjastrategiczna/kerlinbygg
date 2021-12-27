@@ -1,0 +1,110 @@
+//     xs, extra-small: 0px
+//     sm, small: 600px
+//     md, medium: 960px
+//     lg, large: 1280px
+//     xl, extra-large: 1920px
+
+$xs : 0px;
+$sm : 600px;
+$md : 960px;
+$lg : 1280px;
+$xl : 1920px;
+
+// .blognavbar {
+//         @media screen and (min-width: $xs) {
+//                 width: 100%;
+//                 height: auto;
+                
+//                 img {
+//                         width: 100%;
+//                         height: 70px;
+//                         size: 100% 100%;
+//                 }
+//         }
+//         @media screen and (min-width: $sm) {
+
+//         }
+//         @media screen and (min-width: $md) {
+
+//         }
+//         @media screen and (min-width: $lg) {
+
+//         }
+//         @media screen and (min-width: $xl) {
+
+                
+//         }
+// }
+
+
+.container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+//Wrapper
+.wrapper {
+        width: 100%;
+        @media screen and (min-width: $md) {
+                width: 60%;
+        }
+        height: auto;
+        background-color: #CFA36E;
+        
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+//Titles
+
+h2.quoteTitle {
+        font-weight: normal;
+        font-size: 1.2rem;
+}
+
+h5.quoteSubtitle {
+        font-weight: lighter;
+        font-size: 12px;
+}
+
+
+//Inputs
+
+.inputPrimary {
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0px;
+        border-radius: 2px;
+        font-size: 12px;
+        padding-left: 3%;
+}
+
+.inputArea {
+        width: 100%;
+        // height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.formSubmit {
+        width: 100%;
+        height: 30px;
+        border: none;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+
+
+}

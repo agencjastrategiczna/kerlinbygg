@@ -1,0 +1,100 @@
+.container {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+.caption {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start
+}
+
+.caption > h6 {
+        font-weight: lighter;
+        
+}
+
+.caption > h2 {
+        font-weight: bold;
+        color: #CC8E4C;
+}
+
+.caption > h4 {
+        font-weight: normal;
+        // font-size: 20px;
+}
+
+/*
+        Form
+*/
+
+.form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+}
+
+.form > input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+        padding-left: 10px;
+        border: none;
+        border-bottom: solid 1px black;
+}
+
+.form > textarea {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        border: none;
+        border-bottom: solid 1px rgb(22, 22, 22);
+}
+
+.form > .buttonWrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.buttonWrapper > button {
+        border: none;
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 40px;
+        font-weight: bold;
+        background-color: #CFA36E;
+        color: white;
+}
+
+//Call Us 
+.callUsWrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.callUsWrapper > button {
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        background-color: #CFA36E;
+        font-weight: bold;
+        color: white;
+        
+}

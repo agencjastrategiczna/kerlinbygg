@@ -1,0 +1,48 @@
+.footer {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+
+        h2 {
+                font-size: 24px;
+        }
+
+        h3 {
+                font-style: italic;
+                font-size: 20px;
+        }
+
+        p {
+                font-weight: lighter;
+                font-size: 14px;
+        }
+
+        ul {
+                margin: 0px;
+                padding: 0px;
+        }
+}
+
+.footerLogo {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin-bottom: 20px;
+}
+
+.footerCopyright {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+        font-weight: lighter;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}

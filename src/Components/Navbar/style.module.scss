@@ -1,0 +1,120 @@
+//     xs, extra-small: 0px
+//     sm, small: 600px
+//     md, medium: 960px
+//     lg, large: 1280px
+//     xl, extra-large: 1920px
+
+$xs : 0px;
+$sm : 600px;
+$md : 960px;
+$lg : 1280px;
+$xl : 1920px;
+
+.navbar {
+        width: 100%;
+        height: auto;
+}
+
+
+.logoWrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.logo {
+        @media screen and (min-width: $xs) {
+                width: 100px;
+                height: 100px;
+        }
+        @media screen and (min-width: $sm) {
+
+        }
+        @media screen and (min-width: $md) {
+                width: 150px;
+                height: 150px;   
+        }
+        @media screen and (min-width: $lg) {
+
+        }
+        @media screen and (min-width: $xl) {
+
+                
+        }
+}
+
+//navbar
+
+.desktopNavbar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+}
+
+.dNavbarWrapper {
+        min-width: 1000px;
+        max-width: 100%;
+        background-color: #f1f1f1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        @media (max-width: 600px) {
+                display: none;
+        }
+}
+
+.dNavbarWrapper > ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: black;
+        font-weight: bold; 
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+
+
+        li {
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+        }
+}
+
+//Mobile Nav
+.mobileNavbar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+        @media (min-width: 600px) {
+                display: none;
+        }
+}
+
+.mobileNavContent {
+        width: 100%;
+        height: auto;
+
+        ul {
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+
+                li {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                }
+        }
+}

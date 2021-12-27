@@ -1,0 +1,36 @@
+.container {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+.titleWrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+}
+
+.galleryButton {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.galleryButton > button {
+        border: none;
+        width: 200px;
+        height: 40px;
+        background-color: #CFA36E;
+        color: white;
+        font-weight: bold;
+        margin-top: 2%;
+        border-radius: 3px;
+}

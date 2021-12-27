@@ -1,0 +1,44 @@
+.container {
+        position: fixed;
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        background-color: red;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        @media (max-width: 720px) {
+                width: 80%;
+                height: 80%;
+        }
+
+        padding: 2%;
+}
+
+.content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        h2 {
+                font-weight: bold;
+                color: white;
+        }
+}
+
+.formWrapper {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
