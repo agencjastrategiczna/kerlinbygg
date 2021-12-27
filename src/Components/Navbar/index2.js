@@ -58,7 +58,7 @@ const Mobile = () => {
 
 
 const Navbar = () => {
-        const [ visibleElement, setVisibleElement ] = useState("block");
+        const [ visibleElement, setVisibleElement ] = useState("none");
 
         const setStyle = () => {
                 if (visibleElement == 'block') {
