@@ -58,6 +58,18 @@ const Mobile = () => {
 
 
 const Navbar = () => {
+        const [ visibleElement, setVisibleElement ] = useState("block");
+
+        const setStyle = () => {
+                if (visibleElement == 'block') {
+                        setVisibleElement('none');
+                } else if (visibleElement == 'none') {
+                        setVisibleElement('block');
+                } else {
+                        alert('heello')
+                }
+                
+        }
 
         return(
                 <section className={style.container}>
@@ -71,12 +83,19 @@ const Navbar = () => {
 
                                         <Col xs={4} md={8}>
                                                 {/* Mobile */}
-                                                <Mobile />
+                                                <div className={style.mobileOpenBtn}>
+                                                        <List size={50} onClick={setStyle} />
+                                                </div>
 
                                                 {/* Desktop */}
                                                 <Desktop />
 
                                         </Col>
+                                </Row>
+                                <Row>
+                                        <div className={style.mobileContent} style={{display: visibleElement}}>
+                                                <Content />
+                                        </div>
                                 </Row>
                         </Container>
                 </section>

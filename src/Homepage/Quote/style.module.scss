@@ -70,6 +70,9 @@
 .buttonWrapper > button {
         border: none;
         width: auto;
+        @media (max-width: 771px) {
+                width: 100%
+        }
         padding-left: 10%;
         padding-right: 10%;
         height: 40px;

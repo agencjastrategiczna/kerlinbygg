@@ -95,7 +95,12 @@ h5.quoteSubtitle {
         // height: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
+        border: 0px;
+        border-radius: 2px;
+        font-size: 12px;
+        padding-left: 3%;
 }
+
 
 .formSubmit {
         width: 100%;
@@ -105,6 +110,6 @@ h5.quoteSubtitle {
         color: black;
         font-size: 12px;
         font-weight: bold;
-
+        border-radius: 3px;
 
 }
