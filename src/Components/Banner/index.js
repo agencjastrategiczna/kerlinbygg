@@ -12,7 +12,8 @@ import Quote from './form/index'
 const BannerImage = () => {
         return(
                 <div className={style.bannerContent}>
-                        <Image src='logo.png' width={100} height={100} alt="KerlinBygg" />
+                        {/* <Image src='logo.png' width={100} height={100} alt="KerlinBygg" /> */}
+                        <Building width={70} height={70} />
                         <h1>Firma remonotowa</h1>
                         <h3>Małe i duże remonty na wyciągnięcie ręki</h3>
                         <p>

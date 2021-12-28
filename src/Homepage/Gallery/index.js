@@ -3,6 +3,8 @@ import { Image } from 'react-bootstrap'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
+import Link from 'next/link'
+
 const Gallery = () => {
         return(
                 <div className={style.container}>
@@ -41,9 +43,11 @@ const Gallery = () => {
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.galleryButton}>
+                                                        <Link href="/projects">
                                                         <button>
                                                                 Pokaż Więcej Realizacji
                                                         </button>
+                                                        </Link>
                                                 </div>
                                         </Col>
                                 </Row>
