@@ -37,7 +37,7 @@ const Quote = () => {
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.callUsWrapper}>
-                                                        <h4>Lub po prostu zadzwoń do Nas</h4>
+                                                        <h4>LUB PO PROSTU ZADZWOŃ DO NAS</h4>
                                                         <button type="button">ZADZWOŃ</button>
                                                 </div>
                                         </Col>

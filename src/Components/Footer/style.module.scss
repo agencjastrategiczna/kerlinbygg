@@ -8,22 +8,27 @@
         color: white;
 
         h2 {
-                font-size: 24px;
+                font-size: 16px;
         }
 
         h3 {
                 font-style: italic;
-                font-size: 20px;
+                font-size: 14px;
         }
 
         p {
                 font-weight: lighter;
-                font-size: 14px;
+                font-size: 12px;
         }
 
         ul {
                 margin: 0px;
                 padding: 0px;
+                li {
+                        font-size: 12px;
+                        margin-top: 2%;
+                        margin-bottom: 2%;
+                }
         }
 }
 
