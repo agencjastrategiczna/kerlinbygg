@@ -43,7 +43,6 @@ const Title = () => {
 const Projects = () => {
         return(
                 <div className={style.projects}>
-                        <TopHeader />
                         <Navbar />
                         <Title />
 

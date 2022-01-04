@@ -10,7 +10,6 @@ import Footer from '../src/Components/Footer'
 const About = () => {
         return(
                 <div className={style.about}>
-                <TopHeader />
                         <Navbar />
 						{/* Content */}
 						<Container>

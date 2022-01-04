@@ -11,7 +11,6 @@ import Footer from '../src/Components/Footer'
 const Contact = () => {
         return(
                 <div className={style.contact}>
-                        <TopHeader />
                         <Navbar />
                         <Container>
                                 <Row>
@@ -57,8 +56,6 @@ const Contact = () => {
                                                         <li>Adres 1</li>
                                                         <li>Adres 2</li>
                                                         <li>Adres 3</li>
-                                                        <hr />
-                                                        <li><button type="button" className={style.quoteButton}>Darmowa wycena</button></li>
                                                 </ul>
                                         </Col>
                                 </Row>

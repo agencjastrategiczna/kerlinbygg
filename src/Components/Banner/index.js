@@ -17,7 +17,7 @@ const BannerImage = () => {
                         <h1>Firma remonotowa</h1>
                         <h3>Małe i duże remonty na wyciągnięcie ręki</h3>
                         <p>
-                                KerlinBygg to firma remotnowa działająca w obrębie Nynäshamn. Świadczymy zarówno małe jak i kompleksowe usługi remontowe. Wypełnij formularz i odbierz darmową wycenę.
+                                KerlinBygg to firma remotnowa działająca w obrębie Sztokholmu. Świadczymy zarówno małe jak i kompleksowe usługi remontowe. Wypełnij formularz i odbierz darmową wycenę.
                         </p>
                 </div>
         )

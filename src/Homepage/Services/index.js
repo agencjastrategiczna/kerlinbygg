@@ -49,7 +49,7 @@ const Services = () => {
                                                         </div>
                                                         <h3>Szyte Na Miarę</h3>
                                                         <p>
-                                                        Masz w głowie wizję swojego projektu i szukasz kogoś, kto go realizuje? Wspólnie wybierzemy najlepsze rozwiązanie, zaprojektujemy je dla Ciebie, a następnie przystąpimy do realizacji. U nas nic nie dzieje się bez Twojej wiedzy.                                                        
+                                                        Masz pomysł i szukasz kogoś, kto go realizuje? Wspólnie wybierzemy najlepsze rozwiązanie, zaprojektujemy je dla Ciebie, a następnie realizujemy. U nas nic nie dzieje się bez Twojej wiedzy.                                                 
                                                         </p>
                                                 </div>
                                         </Col>

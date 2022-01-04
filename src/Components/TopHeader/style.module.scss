@@ -82,3 +82,25 @@ $xl : 1200px;
         background-color: #040e26;
         border: solid 1px white;
 }
+
+
+//new content
+
+.content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+}
+
+.content > ul {
+        display: inline;
+
+        li {
+                margin-left: 10px;
+                color: white;
+                font-weight: lighter;
+                font-size: 12px;
+        }
+}

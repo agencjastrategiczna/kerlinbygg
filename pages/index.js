@@ -9,7 +9,7 @@ import Gallery from '../src/Homepage/Gallery'
 import CallToUs from '../src/Homepage/CallToUs'
 import Opinions from '../src/Homepage/Opinions'
 import Quote from '../src/Homepage/Quote'
-
+import About from '../src/Homepage/About'
 import Footer from '../src/Components/Footer'
 
 import QuotePop from '../src/Components/QuotePop'
@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <TopHeader />
+    {/* <TopHeader /> */}
 		<Navbar />
 
 <Container>
@@ -33,20 +33,27 @@ export default function Home() {
 		<Banner />
 	</section>
 
+</Container>
+
 	<section className={style.homepageServices}>
 		<Services />
 	</section>
-
+	
+<Container>
 	<section className={style.homepageGallery}>
 		<Gallery />
 	</section>
+	</Container>
 
-	<section className={style.homepageGallery}>
-		<CallToUs />
+	<section className={style.homepageOpinions}>
+		<Opinions />
 	</section>
 
-	<section className={style.homepageGallery}>
-		<Opinions />
+<Container>
+	<section className={style.homepageAbout}>
+		<Container>
+			<About />
+		</Container>
 	</section>
 
 	<section className={style.homepageQuote}>
