@@ -110,3 +110,43 @@
         color: white;
         
 }
+
+.form {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        input {
+                width: 100%;
+                height: 40px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 1%;
+                font-size: 12px;
+                border: solid 1px #bdbdbd;
+                border-radius: 3px;
+                
+        }
+
+        textarea {
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 1%;
+                font-size: 12px;
+                border: solid 1px #bdbdbd;
+                border-radius: 3px; 
+        }
+
+        button {
+                width: 200px;
+                height: 40px;
+                background-color: #CFA36E;
+                border: none;
+                color: white;
+                font-weight: bold;
+        }
+        
+}

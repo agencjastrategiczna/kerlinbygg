@@ -1,3 +1,25 @@
+
+.form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        input {
+                width: 80%;
+                height: 40px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 1%;
+                font-size: 12px;
+                border: solid 1px #bdbdbd;
+                border-radius: 3px;
+                
+        }
+}
+
+
+
 .formSection {
         margin-top: 50px;
 }

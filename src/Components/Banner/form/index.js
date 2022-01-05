@@ -1,6 +1,7 @@
-import { React, useState} from 'react'
-import { GraphQLClient, gql } from 'graphql-request'
+import React, { useState, useRef } from 'react'
+import Router from 'next/router'
 
+import * as emailjs from "emailjs-com"
 
 import style from './style.module.scss'
 
@@ -21,17 +22,22 @@ const Quote = () => {
         const [ email, setEmail ] = useState('')
         const [ opis, setOpis ] = useState('')
 
-        const sendQuote = () => {
-                const endpoint = 'https://api-eu-central-1.graphcms.com/v2/ckxz4eve92n1c01z2af4f38me/master'
-                
-                const mutation = gql`
-                mutation {
-                        createLeads(data: { imie: "Ze streony Imie", email: "zestronyface@fs.com", numertelefonu: 1000,   opiszlecenia: "Zlecenie ze strony"}) {
-                                id,
-                                imie
-                        }
-                }`
-        }
+        const form = useRef();
+
+
+                const sendEmail = (e) => {
+                        e.preventDefault();
+                    
+                        emailjs.sendForm('gmail', 'lead', form.current, 'user_oVTo0H255qAQzNLn05qWm')
+                          .then((result) => {
+                              console.log(result.text);
+                              Router.push('/thank-you')
+
+                          }, (error) => {
+                              console.log(error.text);
+                          });
+                };
+
 
         return(
                 <div className={style.container}>
@@ -40,12 +46,14 @@ const Quote = () => {
                                 <h2 className={style.quoteTitle}>Zamów bezpłatną wycenę</h2>
                                 <hr style={{width: '40px'}} /> 
                                 <h5 className={style.quoteSubtitle}>Wypełnij formularz, a my skontaktujemy się z Tobą.</h5>
-                                <input type="text" className={style.inputPrimary} placeholder="Adres e-mail" onChange={e => setEmail(e.target.value)} />
-                                <input type="text" onChange={e => setTelefon(e.target.value)} className={style.inputPrimary} placeholder="Numer telefonu" />
-                                <input type="text" onChange={e => setImie(e.target.value)} className={style.inputPrimary} placeholder="Imię" />
-                                <textarea rows="4" onChange={e => setOpis(e.target.value)} cols="5" className={style.inputArea} placeholder="Opisz swoje zlecenie" />
-                
-                                <button type="submit" className={style.formSubmit}>Wyślij Zapytanie</button>
+                                <form ref={form} onSubmit={sendEmail}>
+                                        <input type="text" className={style.inputPrimary} name="email" placeholder="Adres e-mail"/>
+                                        <input type="text" className={style.inputPrimary} name="telefon" placeholder="Numer telefonu" />
+                                        <input type="text" className={style.inputPrimary} name="imie" placeholder="Imię" />
+                                        <textarea rows="4" cols="5" className={style.inputArea} name="opis" placeholder="Opisz swoje zlecenie" />
+                        
+                                        <button type="submit" className={style.formSubmit}>Wyślij Zapytanie</button>
+                                </form>
                                 </Container>
                         </Wrapper>
                 </div>
@@ -53,3 +61,17 @@ const Quote = () => {
 }
 
 export default Quote;
+
+/*
+
+                                <h2 className={style.quoteTitle}>Zamów bezpłatną wycenę</h2>
+                                <hr style={{width: '40px'}} /> 
+                                <h5 className={style.quoteSubtitle}>Wypełnij formularz, a my skontaktujemy się z Tobą.</h5>
+                                <input type="text" className={style.inputPrimary} placeholder="Adres e-mail" onChange={e => setEmail(e.target.value)} />
+                                <input type="text" onChange={e => setTelefon(e.target.value)} className={style.inputPrimary} placeholder="Numer telefonu" />
+                                <input type="text" onChange={e => setName(e.target.value)} className={style.inputPrimary} placeholder="Imię" />
+                                <textarea rows="4" onChange={e => setOpis(e.target.value)} cols="5" className={style.inputArea} placeholder="Opisz swoje zlecenie" />
+                
+                                <button type="submit" className={style.formSubmit} onclick={sendQuote}>Wyślij Zapytanie</button>
+
+*/

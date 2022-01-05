@@ -1,3 +1,8 @@
+import React, { useState, useRef } from 'react'
+import Router from 'next/router'
+
+import * as emailjs from "emailjs-com"
+
 import style from '../styles/Contact.module.scss';
 
 import { Container, Row, Col } from 'react-bootstrap'
@@ -9,6 +14,24 @@ import TopHeader from '../src/Components/TopHeader';
 import Footer from '../src/Components/Footer'
 
 const Contact = () => {
+
+        const form = useRef();
+
+
+                const sendEmail = (e) => {
+                        e.preventDefault();
+                    
+                        emailjs.sendForm('gmail', 'kontakt', form.current, 'user_oVTo0H255qAQzNLn05qWm')
+                          .then((result) => {
+                              console.log(result.text);
+                              Router.push('/thank-you')
+
+                          }, (error) => {
+                              console.log(error.text);
+                          });
+                };
+
+
         return(
                 <div className={style.contact}>
                         <Navbar />
@@ -19,31 +42,24 @@ const Contact = () => {
 
                                                 <Row>
                                                         <Col xs={12}>
-                                                                <Form>
-                                                                        <Form.Group className="mb-3" controlId="formEmail">
-                                                                                <Form.Label>Adres E-mail</Form.Label>
-                                                                                <Form.Control type="email" placeholder="Wpisz swój adres e-mail" />
-                                                                        </Form.Group>
+                                                                <form ref={form} onSubmit={sendEmail} className={style.form}>
+                                                                                <input type="email" name="email" placeholder="Wpisz swój adres e-mail" />
 
-                                                                        <Form.Group className="mb-3" controlId="formPhonel">
-                                                                                <Form.Label>Numer telefonu</Form.Label>
-                                                                                <Form.Control type="phone" placeholder="Wpisz numer, na który możemy zadzwonić" />
-                                                                        </Form.Group>
 
-                                                                        <Form.Group className="mb-3" controlId="formPhonel">
-                                                                                <Form.Label>Temat wiadomości</Form.Label>
-                                                                                <Form.Control type="text" placeholder="W czym możemy ci pomóc?" />
-                                                                        </Form.Group>
 
-                                                                        <Form.Group className="mb-3" controlId="formPhonel">
-                                                                                <Form.Label>Treść Wiadomości</Form.Label>
-                                                                                <Form.Control type="textarea" placeholder="Opisz w czym możemy Ci pomóc?" />
-                                                                        </Form.Group>
+                                                                                <input name="telefon" type="phone" placeholder="Wpisz numer, na który możemy zadzwonić" />
 
-                                                                        <button type="button" className={style.contactFormButton}>
+
+                                                                                <input name="temat" type="text" placeholder="W czym możemy ci pomóc?" />
+
+
+
+                                                                                <input type="textarea" name="opis" placeholder="Opisz w czym możemy Ci pomóc?" />
+
+                                                                        <button type="submit" className={style.contactFormButton}>
                                                                                 Wyślij Wiadomość
                                                                         </button>
-                                                                </Form>
+                                                                </form>
                                                         </Col>
                                                 </Row>
                                         </Col>

@@ -1,3 +1,8 @@
+import React, { useState, useRef } from 'react'
+import Router from 'next/router'
+
+import * as emailjs from "emailjs-com"
+
 import style from './style.module.scss'
 
 import { Container, Row, Col } from 'react-bootstrap'
@@ -5,6 +10,27 @@ import { Form } from 'react-bootstrap'
 
 
 const Quote = () => {
+
+        const [ name, setName ] = useState('')
+        const [ telefon, setTelefon ] = useState('')
+        const [ email, setEmail ] = useState('')
+        const [ opis, setOpis ] = useState('')
+
+        const form = useRef();
+
+
+        const sendEmail = (e) => {
+                e.preventDefault();
+            
+                emailjs.sendForm('gmail', 'kontakt', form.current, 'user_oVTo0H255qAQzNLn05qWm')
+                  .then((result) => {
+                      console.log(result.text);
+                      Router.push('/thank-you')
+                  }, (error) => {
+                      console.log(error.text);
+                  });
+        };
+
         return(
                 <div className={style.container}>
                         <Container>
@@ -21,15 +47,16 @@ const Quote = () => {
                                                 <div className={style.form}>
                                                         <h2>FORMULARZ WYCENY</h2>
                                                         <hr style={{width: '10%', height: '5px'}} />
+                                                                <form ref={form} onSubmit={sendEmail} className={style.form}>
+                                                                        <input type="text" name="imie" placeholder="Imię, Nazwisko" />
+                                                                        <input type="text" name="telefon" placeholder="Numer Telefonu" />
+                                                                        <input type="text" name="email" placeholder="Adres E-mail" />
+                                                                        <textarea type="text" name="opis" placeholder="Krótki opis zlecenia" />
 
-                                                                <input type="text" placeholder="Imię, Nazwisko" />
-                                                                <input type="text" placeholder="Numer Telefonu" />
-                                                                <input type="text" placeholder="Adres E-mail" />
-                                                                <textarea type="text" placeholder="Krótki opis zlecenia" />
-
-                                                                <div className={style.buttonWrapper}>
-                                                                        <button type="submit">Wyślij zapytanie</button>
-                                                                </div>
+                                                                        {/* <div className={style.buttonWrapper}> */}
+                                                                                <button type="submit">Wyślij zapytanie</button>
+                                                                        {/* </div> */}
+                                                                </form>
                                                 </div>
                                         </Col>
                                 </Row>
