@@ -21,14 +21,14 @@ const Footer = () => {
                                                 <h2>KerlinBygg</h2>
                                                 <h3>Firma remotnowa</h3>
                                                 <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tellus sapien, auctor ut lacus vel, mollis tincidunt nibh. Nunc ac pharetra est, a placerat nisl. Praesent finibus commodo metus interdum mollis. Nam ullamcorper dictum nunc, vel aliquet nisl finibus vitae. Maecenas tempor lorem in pellentesque porttitor
+                                                Jesteśmy zespołem specjalistów z wieloletnim doświadczeniem. Działamy na terenie Sztokholmu i okolic. Podejmujemy się drobnych, kilkugodzinnych prac oraz realizujemy kompleksowe, skomplikowane projekty. Stosujemy rozwiązania szyte na miarę. Słuchamy potrzeb naszych klientów. Doradzamy, analizujemy i realizujemy. Jesteśmy terminowi - nie lubimy opóźnień. Posiadamy certyfikaty i dużą wiedzę w zakresu usług remontowo-budowlanych.  
                                                 </p>
                                         </Col>
                                 </Row>
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.footerCopyright}>
-                                                        <a href="https://www.kerlinbygg.se">KerlinBygg</a> © 2022. Alla rättigheter förbehålls. Powered by  <a href="https://www.pantherstrategy.com"> Panther Strategy</a>.
+                                                        <a style={{marginLeft: '5px'}}  href="https://www.kerlinbygg.se">KerlinBygg</a> © 2022. Alla rättigheter förbehålls. Powered by  <a style={{marginLeft: '5px'}} href="https://www.pantherstrategy.com"> Panther Strategy</a>.
                                                 </div>
                                         </Col>
                                 </Row>

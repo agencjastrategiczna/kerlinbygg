@@ -19,9 +19,11 @@ const About = () => {
                                                 <div className={style.aboutContentWrapper}>
                                                         <h2>O FIRMIE</h2>
                                                         <p>
-                                                        Zakład Remontowo –Budowlany KerlinBygg funkcjonuje na rynku od 2008 roku. Specjalizujemy się w przeprowadzaniu prac remontowo – budowlanych dla firm i osób prywatnych na tereanach Szwecji. Wykonujemy remonty oraz prace budowlane w obiektach: handlowo-usługowych, administracyjnych, biurowych, użyteczności publicznej, w mieszkaniach oraz domach jednorodzinnych, i innych.
-                                                        Zdobyte doświadczenie oraz Nasze kompetencje pozwalają nam na profesjonalną realizacje nowych projektów, dbając jednocześnie o solidność i terminowość w wykonaniu prac .
+                                                        <b style={{fontWeight: 'bold'}}>Kerlin Bygg</b> <br />
+                                                        <br />
+                                                                Jesteśmy zespołem specjalistów z wieloletnim doświadczeniem. Działamy na terenie Sztokholmu i okolic. Podejmujemy się drobnych, kilkugodzinnych prac oraz realizujemy kompleksowe, skomplikowane projekty. Stosujemy rozwiązania szyte na miarę. Słuchamy potrzeb naszych klientów. Doradzamy, analizujemy i realizujemy. Jesteśmy terminowi - nie lubimy opóźnień. Posiadamy certyfikaty i dużą wiedzę w zakresu usług remontowo-budowlanych.
                                                         </p>
+                                                        <br />
                                                         <div className={style.aboutContentButton}>
                                                                 <button type="button">Więcej O Nas</button>
                                                         </div>

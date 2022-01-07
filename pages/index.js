@@ -20,9 +20,9 @@ export default function Home() {
   return (
     <div className={style.container}>
       <Head>
-        <title>KerlinBygg</title>
+        <title>Firma remotnowa KerlinBygg Strona główna</title>
         <meta name="description" content="Firma remontowa" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
     {/* <TopHeader /> */}
