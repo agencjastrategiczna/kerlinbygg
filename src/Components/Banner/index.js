@@ -14,10 +14,11 @@ const BannerImage = () => {
                 <div className={style.bannerContent}>
                         {/* <Image src='logo.png' width={100} height={100} alt="KerlinBygg" /> */}
                         <Building width={70} height={70} />
-                        <h1>Firma remonotowa</h1>
-                        <h3>Małe i duże remonty na wyciągnięcie ręki</h3>
+                        <h1>Renoveringsföretag</h1>
+                        <h3>Små och stora jobb</h3>
                         <p>
-                                KerlinBygg to firma remotnowa działająca w obrębie Sztokholmu. Świadczymy zarówno małe jak i kompleksowe usługi remontowe. Wypełnij formularz i odbierz darmową wycenę.
+                                KerlinBygg är ett renoveringsföretag som jobbar i Storstockholm. Vi jobbar med båda små, större projekt. 
+                                Fyll i formuläret och få en kostnadsfri offert.                        
                         </p>
                 </div>
         )

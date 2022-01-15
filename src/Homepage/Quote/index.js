@@ -37,24 +37,24 @@ const Quote = () => {
                                 <Row>
                                         <Col xs={12} md={6}>
                                                 <div className={style.caption}>
-                                                        <h6>Zatrudnij nas</h6>
-                                                        <h2>Odbierz darmową wycenę</h2>
+                                                        <h6>Anlita oss</h6>
+                                                        <h2>Få en kostnadsfri offert</h2>
                                                         <hr style={{width: '10%', height: '5px'}} />
-                                                        <h4>Wypełnij formularz. Skontaktujemy się z Tobą.</h4>
+                                                        <h4>Fyll i formuläret. Vi kommer att kontakta dig.</h4>
                                                 </div>
                                         </Col>
                                         <Col xs={12} md={6}>
                                                 <div className={style.form}>
-                                                        <h2>FORMULARZ WYCENY</h2>
+                                                        <h2>KOSTANDSFRI OFFERT</h2>
                                                         <hr style={{width: '10%', height: '5px'}} />
                                                                 <form ref={form} onSubmit={sendEmail} className={style.form}>
-                                                                        <input type="text" name="imie" placeholder="Imię, Nazwisko" />
-                                                                        <input type="text" name="telefon" placeholder="Numer Telefonu" />
-                                                                        <input type="text" name="email" placeholder="Adres E-mail" />
-                                                                        <textarea type="text" name="opis" placeholder="Krótki opis zlecenia" />
+                                                                        <input type="text" name="imie" placeholder="Namn" />
+                                                                        <input type="text" name="telefon" placeholder="Telefonnummer" />
+                                                                        <input type="text" name="email" placeholder="E-mail" />
+                                                                        <textarea type="text" name="opis" placeholder="Beskriv ditt ärende" />
 
                                                                         {/* <div className={style.buttonWrapper}> */}
-                                                                                <button type="submit">Wyślij zapytanie</button>
+                                                                                <button type="submit">Skicka</button>
                                                                         {/* </div> */}
                                                                 </form>
                                                 </div>
@@ -64,8 +64,8 @@ const Quote = () => {
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.callUsWrapper}>
-                                                        <h4>LUB PO PROSTU ZADZWOŃ DO NAS</h4>
-                                                        <button type="button">ZADZWOŃ</button>
+                                                        <h4>ELLER RING OSS</h4>
+                                                        <button type="button">RING OSS</button>
                                                 </div>
                                         </Col>
                                 </Row>

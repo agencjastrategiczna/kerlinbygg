@@ -13,7 +13,7 @@ const Services = () => {
                                         <Col xs={12}>
                                                 <div className={style.serviceTitle}>
                                                         <h2 style={{fontWeight: 'bold'}}>
-                                                                Usługi
+                                                                Våra tjänster
                                                                 <hr style={{width: '10%', height: '5px', color: '#CFA36E'}} />
                                                         </h2>
                                                 </div>
@@ -26,10 +26,9 @@ const Services = () => {
                                                         <div className={style.icon}>
                                                                 <Hammer color={'black'} size={50} />
                                                         </div>
-                                                        <h3>Drobne Prace</h3>
+                                                        <h3>Små jobb</h3>
                                                         <p>
-                                                        Regulacja drzwi, montaż karniszy i rolet, wiercenie w ścianie, naprawa cieknącego zlewu, zepsutej szafki, bramy garażowej i wiele więcej. Za jedną wizytą możemy przeprowadzić kilka drobnych napraw. 
-                                                        </p>
+                                                        Justera dörrar, montera gardinstänger och persienner, borra i väggen, laga en läckande diskho, trasigt skåp, garageport och mycket mer. Vi kan utföra några mindre reparationer på ett och samma besök.                           </p>
                                                 </div>
                                         </Col>
                                         <Col xs={12} md={4}>
@@ -37,9 +36,10 @@ const Services = () => {
                                                         <div className={style.icon}>
                                                                 <Building color={'black'} size={50} />
                                                         </div>
-                                                        <h3>Kompleksowe rozwiązania</h3>
+                                                        <h3>Heltäckande lösningar</h3>
                                                         <p>
-                                                        Potrzebujesz gruntowego remontu kuchnii? A może przerabiasz łazienkę od podstaw? Zależy ci na zespole specjalistów, którzy dostarczą Ci dokładnie tego, czego potrzebujesz? Oferujemy kompleksowe rozwiązania od A do Z.      </p>
+                                                                Behöver du en större köksrenovering? Eller kanske du gör om badrummet från grunden? Vill du ha ett team av specialister som ger dig exakt det du behöver? Vi erbjuder helhetslösningar från A till Ö.
+                                                        </p>
                                                 </div>
                                         </Col>
                                         <Col xs={12} md={4}>
@@ -47,9 +47,9 @@ const Services = () => {
                                                         <div className={style.icon}>
                                                                 <Pencil color={'black'} size={50} />
                                                         </div>
-                                                        <h3>Szyte Na Miarę</h3>
+                                                        <h3>Skräddarsydd</h3>
                                                         <p>
-                                                        Masz pomysł i szukasz kogoś, kto go realizuje? Wspólnie wybierzemy najlepsze rozwiązanie, zaprojektujemy je dla Ciebie, a następnie realizujemy. U nas nic nie dzieje się bez Twojej wiedzy.
+                                                                Har du en idé och letar du efter någon som kan implementera den? Tillsammans kommer vi att välja den bästa lösningen, designa den åt dig och utföra. Hos oss händer ingenting utan din vetskap.
                                                         </p>
                                                 </div>
                                         </Col>

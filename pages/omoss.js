@@ -17,7 +17,7 @@ const About = () => {
 
                 <div className={style.about}>
                         <Head>
-                                <title>O Nas</title>
+                                <title>Renoveringsföretag</title>
                                 <meta name="description" content="O Nas" />
                                 <link rel="icon" href="/logo.png" />
                         </Head>

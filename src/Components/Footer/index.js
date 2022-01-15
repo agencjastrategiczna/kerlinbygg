@@ -19,9 +19,9 @@ const Footer = () => {
                                                         <Image src='logo.png' alt="Szawka" thumbnail />
                                                 </div>
                                                 <h2>KerlinBygg</h2>
-                                                <h3>Firma remotnowa</h3>
+                                                <h3>Renoveringsföretag</h3>
                                                 <p>
-                                                Jesteśmy zespołem specjalistów z wieloletnim doświadczeniem. Działamy na terenie Sztokholmu i okolic. Podejmujemy się drobnych, kilkugodzinnych prac oraz realizujemy kompleksowe, skomplikowane projekty. Stosujemy rozwiązania szyte na miarę. Słuchamy potrzeb naszych klientów. Doradzamy, analizujemy i realizujemy. Jesteśmy terminowi - nie lubimy opóźnień. Posiadamy certyfikaty i dużą wiedzę w zakresu usług remontowo-budowlanych.  
+                                                        Vi är ett team av specialister med många års erfarenhet och jobbar i hela stor Stockholm som fokuserar på beprövade och moderna lösningar. Vi jobbar med båda sma, flera timmar långa arbeten och större, komplicerade projekt. Vi använder oss av skräddarsydda lösningar. Vi lyssnar på våra kunders behov, ger råd, analyserar och implementerar. Vi håller  tider och gillar inte förseningar. Vi har certifikater och stor kunskap inom renovering och byggtjänster.
                                                 </p>
                                         </Col>
                                 </Row>

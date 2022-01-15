@@ -43,16 +43,16 @@ const Quote = () => {
                 <div className={style.container}>
                         <Wrapper>
                                 <Container>
-                                <h2 className={style.quoteTitle}>Zamów bezpłatną wycenę</h2>
+                                <h2 className={style.quoteTitle}>Beställ en kostnadsfri offert</h2>
                                 <hr style={{width: '40px'}} /> 
-                                <h5 className={style.quoteSubtitle}>Wypełnij formularz, a my skontaktujemy się z Tobą.</h5>
+                                <h5 className={style.quoteSubtitle}>Fyll i formuläret så kontaktar vi dig.</h5>
                                 <form ref={form} onSubmit={sendEmail}>
-                                        <input type="text" className={style.inputPrimary} name="email" placeholder="Adres e-mail"/>
-                                        <input type="text" className={style.inputPrimary} name="telefon" placeholder="Numer telefonu" />
-                                        <input type="text" className={style.inputPrimary} name="imie" placeholder="Imię" />
-                                        <textarea rows="4" cols="5" className={style.inputArea} name="opis" placeholder="Opisz swoje zlecenie" />
+                                        <input type="text" className={style.inputPrimary} name="email" placeholder="E-mail"/>
+                                        <input type="text" className={style.inputPrimary} name="telefon" placeholder="Telefonnummer" />
+                                        <input type="text" className={style.inputPrimary} name="imie" placeholder="Namn" />
+                                        <textarea rows="4" cols="5" className={style.inputArea} name="opis" placeholder="Beskriv ditt ärende" />
                         
-                                        <button type="submit" className={style.formSubmit}>Wyślij Zapytanie</button>
+                                        <button type="submit" className={style.formSubmit}>Sicka</button>
                                 </form>
                                 </Container>
                         </Wrapper>

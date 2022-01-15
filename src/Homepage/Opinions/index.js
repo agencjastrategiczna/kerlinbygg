@@ -12,8 +12,8 @@ const Opinions = () => {
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.title}>
-                                                        <h6>REKOMENDACJE</h6>
-                                                        <h2>OPINIE KLIENTÓW</h2>
+                                                        
+                                                        <h2>Omdömen</h2>
                                                 </div>
                                         </Col>
                                 </Row>

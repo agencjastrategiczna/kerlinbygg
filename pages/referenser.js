@@ -27,12 +27,12 @@ const Title = () => {
                         <Row>
                                 <Col sm={12}>
                                                 <hr />
-                                        <h2>NASZE REALIZACJE</h2>
+                                        <h2>Galleri</h2>
                                 </Col>
                         </Row>
                         <Row>
                                 <Col sm={12}>
-                                        <p>Sprawdź Nasze Realizacje</p>
+                                        <p>Våra projekt</p>
                                 </Col>
                         </Row>
                 </Container>

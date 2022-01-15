@@ -11,8 +11,8 @@ const Gallery = () => {
                         <Container>
                                 <Row>
                                         <div className={style.titleWrapper}>
-                                                <h5 style={{fontWeight: 'lighter'}}>Nasze realizacje</h5>
-                                                <h3 style={{fontWeight: 'bold'}}>GALERIA WYKONANYCH PRAC</h3>
+                                                <h5 style={{fontWeight: 'lighter'}}>Våra projekt</h5>
+                                                <h3 style={{fontWeight: 'bold'}}>Galleri</h3>
                                         </div>
                                 </Row>
 
@@ -45,7 +45,7 @@ const Gallery = () => {
                                                 <div className={style.galleryButton}>
                                                         <Link href="/projects">
                                                         <button>
-                                                                Pokaż Więcej Realizacji
+                                                                Se mer
                                                         </button>
                                                         </Link>
                                                 </div>

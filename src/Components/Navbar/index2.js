@@ -14,10 +14,10 @@ const Content = () => {
                 <Container>
                         <div className={style.content}>
                                 <ul type="none">
-                                        <li><Link href="/">STRONA GŁÓWNA</Link></li>
-                                        <li><Link href="projects">REALIZACJE</Link></li>
-                                        <li><Link href="about">O NAS</Link></li>
-                                        <li><Link href="contact">KONTAKT</Link></li>
+                                        <li><Link href="/">HEM</Link></li>
+                                        <li><Link href="referenser">REFERENSER</Link></li>
+                                        <li><Link href="omoss">OM OSS</Link></li>
+                                        <li><Link href="kontakt">KONTAKT</Link></li>
                                 </ul>
                         </div>
                 </Container>
@@ -28,10 +28,10 @@ const Desktop = () => {
         return(
                 <div className={style.desktop}>
                         <ul type="none">
-                                <li><Link href="/">STRONA GŁÓWNA</Link></li>
-                                <li><Link href="projects">REALIZACJE</Link></li>
-                                <li><Link href="about">O NAS</Link></li>
-                                <li><Link href="contact">KONTAKT</Link></li>
+                                <li><Link href="/">HEM</Link></li>
+                                <li><Link href="referenser">REFERENSER</Link></li>
+                                <li><Link href="omoss">OM OSS</Link></li>
+                                <li><Link href="kontakt">KONTAKT</Link></li>
                         </ul>
                 </div>  
         )

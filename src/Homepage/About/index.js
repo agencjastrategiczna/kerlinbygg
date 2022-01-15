@@ -17,15 +17,15 @@ const About = () => {
                                         </Col>
                                         <Col xs={12} md={6}>
                                                 <div className={style.aboutContentWrapper}>
-                                                        <h2>O FIRMIE</h2>
+                                                        <h2>Om företaget</h2>
                                                         <p>
                                                         <b style={{fontWeight: 'bold'}}>Kerlin Bygg</b> <br />
                                                         <br />
-                                                                Jesteśmy zespołem specjalistów z wieloletnim doświadczeniem. Działamy na terenie Sztokholmu i okolic. Podejmujemy się drobnych, kilkugodzinnych prac oraz realizujemy kompleksowe, skomplikowane projekty. Stosujemy rozwiązania szyte na miarę. Słuchamy potrzeb naszych klientów. Doradzamy, analizujemy i realizujemy. Jesteśmy terminowi - nie lubimy opóźnień. Posiadamy certyfikaty i dużą wiedzę w zakresu usług remontowo-budowlanych.
+                                                                Vi är ett team av specialister med många års erfarenhet och jobbar i hela stor Stockholm som fokuserar på beprövade och moderna lösningar. Vi jobbar med båda sma, flera timmar långa arbeten och större, komplicerade projekt. Vi använder oss av skräddarsydda lösningar. Vi lyssnar på våra kunders behov, ger råd, analyserar och implementerar. Vi håller  tider och gillar inte förseningar. Vi har certifikater och stor kunskap inom renovering och byggtjänster.
                                                         </p>
                                                         <br />
                                                         <div className={style.aboutContentButton}>
-                                                                <button type="button">Więcej O Nas</button>
+                                                                <button type="button">Mer Om Oss</button>
                                                         </div>
                                                 </div>
                                         </Col>
