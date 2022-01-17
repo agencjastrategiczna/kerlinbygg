@@ -65,7 +65,9 @@ const Quote = () => {
                                         <Col xs={12}>
                                                 <div className={style.callUsWrapper}>
                                                         <h4>ELLER RING OSS</h4>
-                                                        <button type="button">RING OSS</button>
+                                                        <a href="tel:0769291995">
+                                                                <button type="button" className={style.callButtonStyle}>RING OSS</button>
+                                                        </a>
                                                 </div>
                                         </Col>
                                 </Row>

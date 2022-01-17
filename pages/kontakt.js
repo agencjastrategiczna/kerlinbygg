@@ -38,40 +38,39 @@ const Contact = () => {
                         <Container>
                                 <Row>
                                         <Col xs={12} md={8} className={style.formSection}>
-                                                <h2>Formularz kontaktowy</h2>
+                                                <h2>Kontaktformulär</h2>
 
                                                 <Row>
                                                         <Col xs={12}>
                                                                 <form ref={form} onSubmit={sendEmail} className={style.form}>
-                                                                                <input type="email" name="email" placeholder="Wpisz swój adres e-mail" />
+                                                                                <input type="email" name="email" placeholder="Var god skriv in din e-mail" />
 
 
 
-                                                                                <input name="telefon" type="phone" placeholder="Wpisz numer, na który możemy zadzwonić" />
+                                                                                <input name="telefon" type="phone" placeholder="Ange ett nummer som vi kan ringa" />
 
 
-                                                                                <input name="temat" type="text" placeholder="W czym możemy ci pomóc?" />
+                                                                                <input name="temat" type="text" placeholder="Ämne" />
 
 
 
-                                                                                <input type="textarea" name="opis" placeholder="Opisz w czym możemy Ci pomóc?" />
+                                                                                <input type="textarea" name="opis" placeholder="Meddelandeinnehåll" />
 
                                                                         <button type="submit" className={style.contactFormButton}>
-                                                                                Wyślij Wiadomość
+                                                                                Skicka
                                                                         </button>
                                                                 </form>
                                                         </Col>
                                                 </Row>
                                         </Col>
                                         <Col xs={12} md={4} className={style.subSection}>
-                                                <h3>Dane kontaktowe</h3>
+                                                <h3>Kontaktuppgifter</h3>
                                                 <ul type="none">
-                                                        <li>Telefon: +65 24324 23423 432</li>
-                                                        <li>E-mail: kontakt@kerlinbygg.se</li>
+                                                        <li><b>Telefonnummer:</b> 076-929 19 95</li>
+                                                        <li><b>E-mail:</b> kontakt@kerlinbygg.se</li>
                                                         <hr />
-                                                        <li>Adres 1</li>
-                                                        <li>Adres 2</li>
-                                                        <li>Adres 3</li>
+                                                        <li>Centralgatan 91,</li>
+                                                        <li>Nynëshamn</li>
                                                 </ul>
                                         </Col>
                                 </Row>

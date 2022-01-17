@@ -19,11 +19,11 @@ const ThankYou = () => {
                                 <Row>
                                         <Col>
                                                 <div className={style.contentWrapper}>
-                                                        <h1>DZIĘKUJEMY ZA KONTAKT</h1>
-                                                        <h4>Skontaktujemy Się Z Tobą W Ciągu 24H :)</h4>
+                                                        <h1>TACK FÖR ATT DU HAR KONTAKTEN</h1>
+                                                        <h4>Vi kontaktar dig inom 24h :)</h4>
 
                                                         <Link href="/">
-                                                                <button type="button">Wróć do strony głównej</button>
+                                                                <button type="button">Gå tillbaka till startsidan</button>
                                                         </Link>
                                                 </div>
                                         </Col>

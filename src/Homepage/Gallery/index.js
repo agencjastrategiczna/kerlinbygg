@@ -43,7 +43,7 @@ const Gallery = () => {
                                 <Row>
                                         <Col xs={12}>
                                                 <div className={style.galleryButton}>
-                                                        <Link href="/projects">
+                                                        <Link href="/referenser">
                                                         <button>
                                                                 Se mer
                                                         </button>
