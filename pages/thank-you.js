@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import Head from 'next/head'
+
 
 import style from '../styles/Thankyou.module.scss'
 
@@ -13,6 +15,11 @@ import Footer from '../src/Components/Footer'
 const ThankYou = () => {
         return(
                 <>
+                        <Head>
+                                <title>Thank You | KerlinBygg</title>
+                                <meta name="description" content="O Nas" />
+                                <link rel="icon" href="/logo.png" />
+                        </Head>
                 <Navbar />
                 <Container>
                         <div className={style.container}>

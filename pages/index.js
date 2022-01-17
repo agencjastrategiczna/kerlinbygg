@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <div className={style.container}>
       <Head>
-        <title>Firma remotnowa KerlinBygg Strona główna</title>
-        <meta name="description" content="Firma remontowa" />
+        <title>KerlinBygg renoveringsföretag Hemsidan</title>
+				<meta name="description" content="Renoveringsföretag" />
         <link rel="icon" href="/logo.png" />
       </Head>
 

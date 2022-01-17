@@ -1,5 +1,8 @@
 import style from '../styles/Projects.module.scss';
 
+import Head from 'next/head'
+
+
 import { Image } from 'react-bootstrap'
 
 import a  from '../public/images/projekty/1.png';
@@ -43,6 +46,11 @@ const Title = () => {
 const Projects = () => {
         return(
                 <div className={style.projects}>
+                        <Head>
+                                <title>Referenser | KerlinBygg</title>
+                                <meta name="description" content="O Nas" />
+                                <link rel="icon" href="/logo.png" />
+                        </Head>
                         <Navbar />
                         <Title />
 

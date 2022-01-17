@@ -8,11 +8,17 @@ import '../public/style.css'
 
 import { useEffect } from "react";
 
+import TagManager from 'react-gtm-module';
+
 
 function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
+
+    TagManager.initialize({ gtmId: 'GTM-KLBCDLS' });
+
+
   }, []);
 
   return <Component {...pageProps} />

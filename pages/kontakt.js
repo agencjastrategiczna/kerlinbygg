@@ -13,6 +13,9 @@ import Navbar from '../src/Components/Navbar/index2'
 import TopHeader from '../src/Components/TopHeader';
 import Footer from '../src/Components/Footer'
 
+import Head from 'next/head'
+
+
 const Contact = () => {
 
         const form = useRef();
@@ -34,6 +37,11 @@ const Contact = () => {
 
         return(
                 <div className={style.contact}>
+                      <Head>
+                                <title>Kontakta | KerlinBygg</title>
+                                <meta name="description" content="Renoveringsföretag" />
+                                <link rel="icon" href="/logo.png" />
+                        </Head>
                         <Navbar />
                         <Container>
                                 <Row>
