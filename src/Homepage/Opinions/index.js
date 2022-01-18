@@ -31,11 +31,11 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Kerlin bygg har gjort ett fantastiskt jobb med att renovera mitt hus. Nytt kök, nya fönster, kakling, byggt fönsterbräden och installerat lister mm. Dom har också omvandlat en källare bestående av enbart lekablock till ett mysigt, ombonat gästutrymme. Dom är duktiga, pålitliga och snabba för en rimlig timpennnng. Jag kan varmt rekommenderar dom!
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Ralf
                                                                 </div>
                                                         </div>
                                                 </Col>
@@ -52,11 +52,11 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Kerlin Bygg har ett gott öga för detaljer och jag är mycket nöjd med dialogen kring olika förslag och alternativ. Jag bor i ett hus med sättningar, ojämna väggar och golv. Här har Kerlin Byggs medarbetare visat på hög yrkesskicklighet och skapat fina övergångar mellan olika golvnivåer, gipsat upp rundtimrade väggar och monterat Ikeastommar som värsta proffsen. Köket har tagit form tack vare innovativa lösningar och god kunskap. Men framförallt är jag sjukt nöjd med min vackra och varma marmorgolv
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Vincent
                                                                 </div>
                                                         </div>
                                                 </Col>
@@ -73,11 +73,12 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Vi fick hjälp av Kerlin Bygg avseende totalrenovering av kök i bostadsrätt i augusti 2021. Det var vår första erfarenhet av en större renovering och för oss/föreningen var det väldigt viktigt att det blev korrekt och fint utfört enligt branschregler.
+Kerlin Bygg gav ett trevligt och bra intryck från första mötet, hantverkarna gjorde ett toppenjobb - köket blev superfint!, och de höll offert samt tidsplan. Vi hade också en fristående besiktning efteråt som godkändes utan konstigheter
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Sören
                                                                 </div>
                                                         </div>
                                                 </Col>
@@ -96,11 +97,11 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Pålitlig företag med hög servicekänsla. Hela projektet med nytt kök, renovering av innertak och annat fix gick i mål enligt tidplanen och offert. Snyggt arbete med finishing. Bra projektledning! Jag rekommenderar varmt Kerlin Bygg!
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Joel
                                                                 </div>
                                                         </div>
                                                 </Col>
@@ -117,11 +118,11 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Personliga, punktliga, perfekta. Anpassade sig hela tiden efter mina önskemål och kom med förslag. Flexibla både i utförande och tidsanpassning. Komplett portfölj med tjänster för totalrenovering, ingenting är ett problem.
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Harald
                                                                 </div>
                                                         </div>
                                                 </Col>
@@ -138,11 +139,11 @@ const Opinions = () => {
                                                                 </div>
                                                                 <div className={style.opinionContent}>
                                                                         <p>
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis nulla lacus. Aliquam non dui laoreet, viverra diam viverra, egestas tellus. Ut faucibus pulvinar justo. Aenean metus tellus, feugiat vel risus id, dictum placerat ex.
+                                                                        Flexibla med starttid efter leverans av kök. God kommunikation och flexibilitet. Bra råd kring planering och genomförande. Kändes tryggt med ett företag med tillgång till många hantverkare som skötte hela projektet från start till slut!
                                                                         </p>
                                                                 </div>
                                                                 <div className={style.opinionPerson}>
-                                                                        Lorem Ipsum
+                                                                        ~ Daniel
                                                                 </div>
                                                         </div>
                                                 </Col>
